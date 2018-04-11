@@ -24,8 +24,8 @@ export default {
   },
   methods: {
     goLeft () {
-      this.start = moment(this.start).substract(7, 'days')
-      this.end = moment(this.end).substract(7, 'days')
+      this.start = moment(this.start).subtract(7, 'days')
+      this.end = moment(this.end).subtract(7, 'days')
       this.change()
     },
     goRight () {
