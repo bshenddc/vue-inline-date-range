@@ -1,0 +1,10 @@
+{
+  "name": "vue-inline-date-range",
+  "version": "1.0.0",
+  "main": "vue-inline-date-range.vue",
+  "license": "MIT",
+  "dependencies": {
+    "moment": "^2.22.0",
+    "v2-datepicker": "^2.2.0"
+  }
+}
