@@ -5548,7 +5548,7 @@
     staticRenderFns: [],
     data: function data() {
       return {
-        start: moment().substract(30, 'days'),
+        start: moment().subtract(30, 'days'),
         end: moment()
       };
     },
