@@ -1,0 +1,26 @@
+.date-range {
+  height: 40px;
+  display: inline-flex;
+  align-items: center; }
+  .date-range .v2-date-wrap {
+    min-width: 6rem !important;
+    background: transparent; }
+  .date-range .v2-date-wrap .v2-picker-trigger {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0; }
+  .date-range .fa-caret-left {
+    cursor: pointer;
+    font-size: 1rem; }
+  .date-range .fa-caret-right {
+    cursor: pointer;
+    font-size: 1rem; }
+  .date-range .v2-date-wrap {
+    border: 0;
+    min-width: 7rem;
+    height: 40px; }
+    .date-range .v2-date-wrap .v2-picker-panel-wrap {
+      right: -100px; }
+  .date-range svg {
+    display: none; }

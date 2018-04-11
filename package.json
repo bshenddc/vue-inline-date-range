@@ -1,10 +1,19 @@
 {
   "name": "vue-inline-date-range",
   "version": "1.0.0",
-  "main": "vue-inline-date-range.vue",
+  "main": "dist/vue-inline-date-range.js",
   "license": "MIT",
   "dependencies": {
     "moment": "^2.22.0",
     "v2-datepicker": "^2.2.0"
+  },
+  "devDependencies": {
+    "bili": "^3.0.15",
+    "rollup-plugin-vue": "^3.0.0",
+    "vue": "^2.5.16",
+    "vue-template-compiler": "^2.5.16"
+  },
+  "scripts": {
+    "build": "bili --format umd,es --plugin vue vue-inline-date-range.vue"
   }
 }
