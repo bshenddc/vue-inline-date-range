@@ -15,7 +15,7 @@ import V2Datepicker from 'v2-datepicker/lib/date-picker'
 export default {
   data () {
     return {
-      start: moment().substract(30, 'days'),
+      start: moment().subtract(30, 'days'),
       end: moment()
     }
   },
